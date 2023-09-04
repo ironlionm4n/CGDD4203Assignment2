@@ -1,0 +1,34 @@
+{
+    "name": "PlayerInputs",
+    "maps": [
+        {
+            "name": "BallController",
+            "id": "b2fb5309-b0f3-45bd-8ece-d23e51cd549b",
+            "actions": [
+                {
+                    "name": "MoveBall",
+                    "type": "Value",
+                    "id": "ec16f8b6-49d5-4579-a67b-fef5956414ad",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a8ea364f-a713-4573-ad41-47bf2cc74f5a",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveBall",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
